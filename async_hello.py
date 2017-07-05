@@ -1,10 +1,6 @@
 import asyncio
 loop = asyncio.get_event_loop()
 
-
-def test():
-    print('Hiii')
-
 @asyncio.coroutine
 def hello():
         print('Hello')
